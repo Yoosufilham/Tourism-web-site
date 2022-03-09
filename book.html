@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style.css" title="" type="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <script src="script.js"></script>
+  
+    <title>Tour Srilanka - book</title>
+    
+  </head>
+  <body>
+    <header>
+      <div id="brand"><a href="index.html"><span>SL</span> To<span>ur</span>ism</a></div>
+      <input type="search" id="search" placeholder="search" onchange="openPage()" />
+      
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href=""></a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="places.html">Places to visit</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="login.html">Login</a></li>
+          <h3 class="logo"><span>To</span>ur Sri<span>Lan</span>ka</h3>
+        </ul>
+      </div>
+    </header>
+    
+    <section class="book">
+      <div class="row">
+        <form action="">
+          <div class="inputBox">
+            <h3>Your Gmail*</h3>
+            <input type="email" placeholder="Enter Gmail" id="emaill" />
+          </div>
+          <div class="inputBox">
+            <h3>Contact Number</h3>
+            <input type="number" placeholder="Contact Number" id="contactNumber" />
+          </div>
+          <div class="inputBox">
+            <h3>Destination*</h3>
+            <input type="text" placeholder="place names" id="goto" />
+          </div>
+          <div class="inputBox">
+            <h3>number of guests</h3>
+            <input type="number" placeholder="Number" id="howMany" />
+          </div>
+          <div class="inputBox">
+            <h3>Date of Departure*</h3>
+            <input type="date" class="date" id="arrive" />
+          </div>
+          <div class="inputBox">
+            <h3>Date of Arrival*</h3>
+            <input type="date" class="date" id="leave" />
+          </div>
+          <input type="submit" class="btn" id="submit" value="book now" onclick="validation();" />
+        </form>
+      </div>
+    </section>
+    <section class="footer">
+      <h3 class="logo1"><span>To</span>ur Sri<span>Lan</span>ka</h3>
+      <h4 class="credits">Created by <span>Y</span>oosuf <span>I</span>lham</h4>
+    </section>
+  </body>
+</html>
