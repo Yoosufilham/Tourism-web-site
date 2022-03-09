@@ -1,4 +1,4 @@
-# tourist-web-site
+# Tour Srilanka
 
 this project is created by Yoosuf Ilham.
 
